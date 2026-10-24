@@ -1,0 +1,4 @@
+import { Compass, LayoutTemplate, Rocket, Wrench } from 'lucide-react'
+import { SectionHeading } from '../components/SectionHeading'
+const steps=[['Discover','Understand the client’s business and goals.',Compass],['Design','Plan the layout, colours, and experience.',LayoutTemplate],['Develop','Build and test the website.',Wrench],['Launch','Deploy the project and complete the agreed handover.',Rocket]] as const
+export function Process(){return <section className="section-pad"><div className="container"><SectionHeading eyebrow="How it works" title="A simple four-step path from idea to launch."/><div className="process-grid">{steps.map(([title,text,Icon],i)=><article className="process-step" key={title}><div className="step-icon"><Icon size={22}/><b>0{i+1}</b></div><h3>{title}</h3><p>{text}</p>{i<steps.length-1&&<div className="step-line"/>}</article>)}</div></div></section>}

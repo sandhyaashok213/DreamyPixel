@@ -1,0 +1,11 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="22" y1="22" x2="138" y2="139" gradientUnits="userSpaceOnUse"><stop stop-color="#6338D6"/><stop offset=".52" stop-color="#9B61EF"/><stop offset="1" stop-color="#F15DAF"/></linearGradient>
+  </defs>
+  <path d="M38 43C38 34.716 44.716 28 53 28H92C114.644 28 133 46.356 133 69V86C133 108.644 114.644 127 92 127H62C50.954 127 42 118.046 42 107V63C42 52.954 50.954 44 62 44H95C102.732 44 109 50.268 109 58V85C109 92.732 102.732 99 95 99H76" stroke="url(#g)" stroke-width="19" stroke-linecap="round"/>
+  <path d="M24 105C42 119 72 122 101 114C119 109 134 100 143 89" stroke="url(#g)" stroke-width="9" stroke-linecap="round"/>
+  <rect x="17" y="40" width="10" height="10" rx="2" fill="#F15DAF"/><rect x="28" y="25" width="9" height="9" rx="2" fill="#6338D6"/><rect x="24" y="56" width="8" height="8" rx="2" fill="#8A5AE7"/>
+  <rect x="72" y="69" width="12" height="12" rx="3" fill="#6338D6"/><rect x="87" y="82" width="9" height="9" rx="2" fill="#F15DAF"/>
+  <path d="M129 18l3 8 8 3-8 3-3 8-3-8-8-3 8-3 3-8Z" fill="#FFC85A"/>
+  <path d="M112 38l2.5 6.5L121 47l-6.5 2.5L112 56l-2.5-6.5L103 47l6.5-2.5L112 38Z" fill="#6338D6"/>
+</svg>
